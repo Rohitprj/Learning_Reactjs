@@ -6,7 +6,8 @@ export default function App() {
     const info = useLocalSearchParams();
   return (
     <View>
-      <Text>Information{info.About}</Text>
+      <Text>Information{info.Skull}</Text>
+      <Text>Information{info.Toy}</Text>
     </View>
   )
 }
