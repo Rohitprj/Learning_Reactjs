@@ -48,6 +48,19 @@ export default function App() {
           )
         }}
       />
+    </ScrollView>
+  )
+}
+
+
+
+
+
+
+
+
+
+
 
       {/* <Link style={{backgroundColor:"red",width:400}} href={{
         pathname: "About us",
@@ -64,7 +77,3 @@ export default function App() {
         <Image style={{ height: 600, width: 400}} source={{ uri: "https://www.cleanpng.com/png-gummy-bears-3d-glass-bear-transparent-glass-sculpt-8099473/" }} />
         About us
       </Link> */}
-
-    </ScrollView>
-  )
-}
