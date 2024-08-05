@@ -281,6 +281,7 @@ const styles = StyleSheet.create({
     maxHeight: 32,
   },
 });
+
 import { View, Text, ScrollView, Image, FlatList, ImageBackground } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
@@ -360,4 +361,3 @@ export default function App() {
         <Image style={{ height: 600, width: 400}} source={{ uri: "https://www.cleanpng.com/png-gummy-bears-3d-glass-bear-transparent-glass-sculpt-8099473/" }} />
         About us
       </Link> */}
->>>>>>> e6880df59f86dc9561472a8622c0efcfc865832c
