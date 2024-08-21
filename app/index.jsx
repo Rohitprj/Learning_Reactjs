@@ -5,8 +5,8 @@ import DateTimePicker from "@react-native-community/datetimepicker";
 const MyDateTimePicker = () => {
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
-  const [showStartDatePicker, setShowStartDatePicker] = useState(false);
-  const [showEndDatePicker, setShowEndDatePicker] = useState(false);
+  // const [showStartDatePicker, setShowStartDatePicker] = useState(false);
+  // const [showEndDatePicker, setShowEndDatePicker] = useState(false);
 
   const [displayStartDate, setDisplayStartDate] = useState("");
   const [displayEndDate, setDisplayEndDate] = useState("");
@@ -29,37 +29,41 @@ const MyDateTimePicker = () => {
     console.log("End Date:", currentDate);
   };
 
-  const showStartDatePickerModal = () => {
-    setShowStartDatePicker(true);
-  };
+  // const showStartDatePickerModal = () => {
+  //   setShowStartDatePicker(true);
+  // };
 
-  const showEndDatePickerModal = () => {
-    setShowEndDatePicker(true);
-  };
+  // const showEndDatePickerModal = () => {
+  //   setShowEndDatePicker(true);
+  // };
 
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Button onPress={showStartDatePickerModal} title="Select Start Date" />
-      {showStartDatePicker && (
-        <DateTimePicker
-          value={startDate}
-          mode="time"
-          is24Hour={false}
-          display="spinner"
-          onChange={handleStartDateChange}
-        />
-      )}
+      {/* <Button onPress={showStartDatePickerModal} title="Select Start Date" /> */}
+      {/* {showStartDatePicker && ( */}
+      {/* <View style={{ marginBottom: 50 }}> */}
+      <DateTimePicker
+        value={startDate}
+        mode="time"
+        is24Hour={false}
+        display="spinner"
+        onChange={handleStartDateChange}
+      />
+      {/* </View> */}
+      {/* )} */}
 
-      <Button onPress={showEndDatePickerModal} title="Select End Date" />
-      {showEndDatePicker && (
-        <DateTimePicker
-          value={endDate}
-          mode="time"
-          is24Hour={false}
-          display="spinner"
-          onChange={handleEndDateChange}
-        />
-      )}
+      {/* <Button onPress={showEndDatePickerModal} title="Select End Date" /> */}
+      {/* {showEndDatePicker && ( */}
+      {/* <View style={{ marginTop: 50 }}> */}
+      <DateTimePicker
+        value={endDate}
+        mode="time"
+        is24Hour={false}
+        display="spinner"
+        onChange={handleEndDateChange}
+      />
+      {/* </View> */}
+      {/* )} */}
 
       <View style={{ marginTop: 20 }}>
         <Text>Start Date: {displayStartDate}</Text>
