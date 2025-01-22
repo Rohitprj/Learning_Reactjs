@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="padding: 20px;">
+    <form action="https://api.shipsar.in/action/form">
+        <label for="name">Name</label><br>
+        <input style="padding: 5px; margin-top:5px;" type="name" placeholder="Name" id="name" name="name" required><br><br>
+
+        <label for="contact">Contact</label><br>
+        <input style="padding: 5px; margin-top:5px;" type="tel" placeholder="Contact" required minlength="10" maxlength="10" max="100"><br><br>
+ 
+        <label for="Email">Email</label><br>
+        <input style="padding: 5px; margin-top:5px;" type="email" placeholder="Email"><br><br>
+
+        <label for="address">Address</label><br>
+        <textarea style="padding: 5px; margin-top:5px;" type="address" placeholder="Address"> </textarea>
+        <br>
+        <br>
+        <span>Gender</span><br>
+        <label><input type="radio" name="gender">Male</label>
+        <label><input type="radio"name="gender">Female</label>
+        <label><input type="radio"name="gender">Others</label><br><br>
+
+        <span>Hobbies</span><br>
+        <label><input type="checkbox" name="hobbies">Cricket</label><br>
+        <label><input type="checkbox" name="hobbies">Hockey</label><br>
+        <label><input type="checkbox" name="hobbies">Football</label><br>
+
+        <br><input type="submit" />
+        <input type="reset" />
+    </form>
+</body>
+
+</html>
