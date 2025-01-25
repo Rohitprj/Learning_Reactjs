@@ -1,4 +1,32 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", serif;
+}
+body{
+  background: #F5F5F5;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1px;
+  cursor: pointer;
+}
+.container{
+  padding-right: 10% ;
+  padding-left: 10% ;
+
+}
+
+
+
+
+
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +93,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
