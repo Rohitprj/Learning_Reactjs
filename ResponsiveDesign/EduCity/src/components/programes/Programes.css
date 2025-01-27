@@ -12,8 +12,9 @@
 }
 .programe{
     flex-basis: 31%;
+    position: relative;
 }
-/* .caption{
+.caption{
     border-radius: 20px;
     position: absolute;
     top: 0;
@@ -21,8 +22,22 @@
     left: 0;
     right: 0;
     background: rgb(0,15,152,0.3);
-} */
-/* .caption img{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+.caption img{
     width: 60px;
     margin-bottom: 10px;
-} */
+}
+.programe:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
