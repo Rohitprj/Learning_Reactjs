@@ -1,10 +1,16 @@
 import "./Title.css";
 
-export default function Title() {
+export default function Title({
+  title,
+  subTitle,
+}: {
+  title: string;
+  subTitle: string;
+}) {
   return (
     <div className="title">
-      <p>OUR PROGRAMMES</p>
-      <h1>What We Offer</h1>
+      <p>{title}</p>
+      <h1>{subTitle}</h1>
     </div>
   );
 }

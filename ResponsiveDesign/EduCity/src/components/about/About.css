@@ -1,0 +1,37 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.about-left{
+    flex-basis: 40%;
+    position: relative;
+}
+.about-right{
+    flex-basis: 56%;
+}
+.about-img{
+    border-radius: 5%;
+    width: 80%;
+    height: 375px;
+}
+.play-icon{
+    position: absolute;
+    width: 15%;
+    top: 40%;
+    left: 35%;
+}
+.about-right h3{
+    color: navy;
+    font-weight: 600;
+}
+.about-right h1{
+    font-weight: 800;
+    margin: 10px 0px;
+}
+.about-right p{
+    color: grey;
+    margin-bottom: 15px;
+}

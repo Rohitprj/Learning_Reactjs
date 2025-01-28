@@ -33,5 +33,9 @@ nav{
     justify-content: center;
     gap: 5px;
   }
+  .dark-background{
+    background: navy;
+    transition: 0.5s;
+  }
   
   
