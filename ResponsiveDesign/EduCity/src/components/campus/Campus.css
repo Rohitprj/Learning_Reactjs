@@ -1,0 +1,23 @@
+.campus{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.galery{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 40px;
+}
+.galery img{
+    width: 20%;
+    border-radius: 20px;
+}
+.seeMoreBtn{
+    background:navy;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

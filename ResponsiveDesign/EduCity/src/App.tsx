@@ -3,6 +3,8 @@ import Hero from "./components/hero/Hero";
 import Programes from "./components/programes/Programes";
 import Title from "./components/title/Title";
 import { About } from "./components/about/About";
+import { Campus } from "./components/campus/Campus";
+import { Testimonials } from "./components/testimonials/Testimonials";
 
 const App = () => {
   return (
@@ -14,6 +16,9 @@ const App = () => {
         <Programes />
         <About />
         <Title title="GALLERY" subTitle="Campus Photos" />
+        <Campus />
+        <Title title="TESTIMONIALS" subTitle="What student says" />
+        <Testimonials />
       </div>
     </div>
   );
