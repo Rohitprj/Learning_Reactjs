@@ -41,7 +41,11 @@ const Contact = () => {
             placeholder="Enter your text"
             required
           ></textarea>
-          <button type="submit" className="btn dark-btn">
+          <button
+            type="submit"
+            className="btn dark-btn"
+            style={{ backgroundColor: "#000080", color: "#fff" }}
+          >
             Submit now
           </button>
         </form>
