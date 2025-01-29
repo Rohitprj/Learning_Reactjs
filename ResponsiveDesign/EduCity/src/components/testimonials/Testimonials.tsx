@@ -5,7 +5,7 @@ import forward from "../../assets/next.png";
 import testimonial from "../../assets/testimonials.png";
 
 export const Testimonials = () => {
-  const slider = useRef();
+  const slider: any = useRef();
   let tx = 0;
   const slideForward = () => {
     if (tx > -50) {
